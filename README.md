@@ -1,7 +1,7 @@
 DJTestBundle
 =============
 
-The DJTestBundle adds a custom FrameworkTestCase for unit testing your Symfony2 projects with PHPUnit.
+The DJTestBundle adds a custom FrameworkTestCase for unit testing with PHPUnit.
 Functionnalities included are :
 * Inclusion of Faker library
 * Using reflection method to access private/protected methods.
@@ -11,7 +11,8 @@ Installation
 
 ## Prerequisites
 
-This version of the bundle requires PHP5.5, PHPUnit >= 4.0.0, fzaninotto/Faker >= 1.4.0 and Symfony >= 2.4.
+This version of the bundle requires PHP5.5, PHPUnit >= 4.0.0, fzaninotto/Faker >= 1.4.0.
+This bundle (as its name represents) has been developed for Symfony2 but can be used without any framework.
 
 ## Steps
 
