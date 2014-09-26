@@ -41,7 +41,7 @@ Extends from your tests classes from `DJ\TestBundle\Test\FrameworkTestCase`
 To access a private/protected method of an object use :
 
 ``` php
-$this->getMethod($class, 'methodName')
+$this->getMethod('classFullName', 'methodName')
 ```
 
 You can access faker through the property :
