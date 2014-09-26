@@ -1,6 +1,6 @@
 <?php
 
-namespace DJ\MailingBundle\Test;
+namespace DJ\TestBundle\Test;
 
 /**
  * Extended Framework Test Case created to implement easily Faker into the PHPUnit tests.
