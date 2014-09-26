@@ -14,7 +14,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.2",
-        "phpunit/phpunit": "4.4.*@dev",
+        "phpunit/phpunit": "4.0.*",
         "fzaninotto/faker": "1.5.*@dev"
     },
     "autoload": {
