@@ -11,7 +11,7 @@ Installation
 
 ## Prerequisites
 
-This version of the bundle requires PHP5.5 and PHPUnit > 4.
+This version of the bundle requires PHP5.5, PHPUnit >= 4.0.0, fzaninotto/Faker >= 1.4.0.
 This bundle (as its name represents) has been developed for Symfony2 but can be used without any framework.
 
 ## Steps
