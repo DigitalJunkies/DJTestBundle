@@ -1,0 +1,28 @@
+{
+    "name": "digitaljunkies/test-bundle",
+    "type": "library",
+    "description": "Digital Junkies test bundle",
+    "keywords": ["unit testing", "phpunit"],
+    "homepage": "http://www.digital-junkies.uk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DJ Developers",
+            "email": "developer@digital-junkies.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "phpunit/phpunit": "4.4.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "DJ\\TestBundle": "" }
+    },
+    "target-dir": "DJ/TestBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-master"
+        }
+    }
+}
