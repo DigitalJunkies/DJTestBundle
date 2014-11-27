@@ -21,9 +21,9 @@ class DJWebTestCase extends WebTestCase
      * Calls PHPUnit_Framework_TestCase
      * Creates a Faker instance
      */
-    public function __construct()
+    public function __construct($name = null, array $data = array(), $dataName = '')
     {
-        parent::__construct();
+        parent::__construct($name, $data, $dataName);
 
         $this->faker = \Faker\Factory::create();
     }
