@@ -29,8 +29,8 @@ class DJFrameworkTestCase extends \PHPUnit_Framework_TestCase
     /**
      * Returns a method from a defined class whatever its visibility is
      *
-     * @param $className
-     * @param $methodName
+     * @param string $className
+     * @param string $methodName
      *
      * @return \ReflectionMethod
      */

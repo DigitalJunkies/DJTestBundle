@@ -31,8 +31,8 @@ class DJWebTestCase extends WebTestCase
     /**
      * Returns a method from a defined class whatever its visibility is
      *
-     * @param $className
-     * @param $methodName
+     * @param string $className
+     * @param string $methodName
      *
      * @return \ReflectionMethod
      */
